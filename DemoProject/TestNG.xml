@@ -3,37 +3,12 @@
 
 <suite name="Login Suite">
 
-	<test name="BothCorrect">
-	<parameter name="User" value="Admin"></parameter>
-	<parameter name="Pass" value="admin123"></parameter>
+	<test name="Login to Application">
 		<classes>
-			<class name="LoginTestCases.BothCorrect" />
+			<class name="LoginTestCases.Login" />
 		</classes>
 	</test>
 
-	<test name="BothIncorrect">
-	<parameter name="User" value="dummy"></parameter>
-	<parameter name="Pass" value="dummy"></parameter>
-		<classes>
-			<class name="LoginTestCases.BothIncorrect" />
-		</classes>
-	</test>
-
-	<test name="CorrectPassword">
-	<parameter name="User" value="dummy"></parameter>
-	<parameter name="Pass" value="admin123"></parameter>
-		<classes>
-			<class name="LoginTestCases.CorrectPassword" />
-		</classes>
-	</test>
-
-	<test name="CorrectUsername">
-	<parameter name="User" value="Admin"></parameter>
-	<parameter name="Pass" value="dummy"></parameter>
-		<classes>
-			<class name="LoginTestCases.CorrectUsername" />
-		</classes>
-	</test>
-
+	
 
 </suite>
