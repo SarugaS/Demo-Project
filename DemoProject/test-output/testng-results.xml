@@ -2,28 +2,64 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-14T14:47:39 IST" name="Default suite" finished-at="2023-03-14T14:48:31 IST" duration-ms="52531">
+  <suite started-at="2023-03-14T19:35:08 IST" name="Default suite" finished-at="2023-03-14T19:35:37 IST" duration-ms="28696">
     <groups>
     </groups>
-    <test started-at="2023-03-14T14:47:39 IST" name="Default test" finished-at="2023-03-14T14:48:31 IST" duration-ms="52531">
+    <test started-at="2023-03-14T19:35:08 IST" name="Default test" finished-at="2023-03-14T19:35:37 IST" duration-ms="28696">
       <class name="LoginTestCases.Login">
-        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@56528192]" started-at="2023-03-14T14:47:39 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T14:47:54 IST" duration-ms="15499" status="PASS">
+        <test-method is-config="true" signature="chromeopening()[pri:0, instance:LoginTestCases.Login@3c419631]" started-at="2023-03-14T19:35:08 IST" name="chromeopening" finished-at="2023-03-14T19:35:12 IST" duration-ms="3971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeopening -->
+        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@3c419631]" started-at="2023-03-14T19:35:12 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T19:35:22 IST" duration-ms="9519" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[Admin123]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[1234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithCorrectUserName -->
-        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@56528192]" started-at="2023-03-14T14:47:54 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T14:48:07 IST" duration-ms="12572" status="PASS">
+        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@3c419631]" started-at="2023-03-14T19:35:22 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T19:35:26 IST" duration-ms="3813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithCorrectUserName -->
+        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@3c419631]" started-at="2023-03-14T19:35:26 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T19:35:31 IST" duration-ms="5251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADMIN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithCorrectUserName -->
+        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@3c419631]" started-at="2023-03-14T19:35:31 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T19:35:36 IST" duration-ms="4912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,38 +75,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithCorrectUserName -->
-        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@56528192]" started-at="2023-03-14T14:48:07 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T14:48:19 IST" duration-ms="11913" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dummy]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="excitchrome()[pri:0, instance:LoginTestCases.Login@3c419631]" started-at="2023-03-14T19:35:36 IST" name="excitchrome" finished-at="2023-03-14T19:35:37 IST" duration-ms="945" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithCorrectUserName -->
-        <test-method signature="loginwithCorrectUserName(java.lang.String,java.lang.String)[pri:0, instance:LoginTestCases.Login@56528192]" started-at="2023-03-14T14:48:19 IST" name="loginwithCorrectUserName" data-provider="Logindata" finished-at="2023-03-14T14:48:31 IST" duration-ms="12451" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dummy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithCorrectUserName -->
+        </test-method> <!-- excitchrome -->
       </class> <!-- LoginTestCases.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

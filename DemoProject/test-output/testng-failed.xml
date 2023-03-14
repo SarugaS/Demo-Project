@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Login Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="BothCorrect(failed)">
-    <parameter name="User" value="Admin"/>
-    <parameter name="Pass" value="admin123"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginTestCases.BothCorrect">
+      <class name="LoginTestCases.Login">
         <methods>
-          <include name="loginwithCorrectUserName" invocation-numbers="0"/>
+          <include name="loginwithCorrectUserName"/>
+          <include name="chromeopening"/>
+          <include name="excitchrome"/>
         </methods>
-      </class> <!-- LoginTestCases.BothCorrect -->
+      </class> <!-- LoginTestCases.Login -->
     </classes>
-  </test> <!-- BothCorrect(failed) -->
-</suite> <!-- Failed suite [Login Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

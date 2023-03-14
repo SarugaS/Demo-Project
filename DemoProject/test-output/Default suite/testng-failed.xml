@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginTestCases.CorrectUsername">
+      <class name="LoginTestCases.Login">
         <methods>
           <include name="loginwithCorrectUserName"/>
+          <include name="chromeopening"/>
+          <include name="excitchrome"/>
         </methods>
-      </class> <!-- LoginTestCases.CorrectUsername -->
+      </class> <!-- LoginTestCases.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
